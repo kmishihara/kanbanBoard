@@ -1,0 +1,91 @@
+body{
+  background: white;
+  font-family: 'Wire One', sans-serif;
+  font-size: 25px;
+}
+
+.taskcolumn {
+  border: 1px solid #999999;
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+  vertical-align: top;
+  height: auto;
+}
+
+.card { 
+  border: 1px solid #999999;
+  margin: 2px;
+  position: relative;
+}
+
+h3{
+  margin: 0;
+  padding: 5px;
+}
+
+#todo{
+  background: #ffe8ef;
+}
+
+#inprogress{
+  background: #ffe8fc;
+}
+
+#completed{
+  background: #f6e8ff;
+}
+
+#accepted{
+  background: #e8ebff;
+}
+
+#archive{
+  background: #e8f2ff;
+}
+
+input{
+  display: block;  
+}
+
+.deleteButton {
+  color: Black;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.deleteButton:hover {
+    background-color: #e6e6e6; 
+    color: white;
+}
+
+.moveBackButton {
+  color: Black;
+  background-color: transparent;
+  border: none;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.moveBackButton:hover {
+    background-color: #e6e6e6; 
+    color: white;
+}
+
+.moveNextButton {
+  color: Black;
+  background-color: transparent;
+  border: none;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
+
+.moveNextButton:hover {
+    background-color: #e6e6e6; 
+    color: white;
+}
